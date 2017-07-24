@@ -14,6 +14,11 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint": "3.19.0"
+    "chai": "^4.1.0",
+    "chai-enzyme": "^0.8.0",
+    "enzyme": "^2.9.1",
+    "eslint": "3.19.0",
+    "react-addons-test-utils": "^15.6.0",
+    "react-test-renderer": "^15.6.1"
   }
 }
