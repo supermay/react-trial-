@@ -11,4 +11,7 @@ describe('<Title />', () => {
   it('renders an h1 tag',() => {
     expect(title).to.have.tagName('h1')
   })
+  it('renders the capitalized value',() => {
+   expect(title).to.have.text('Test Me')
+  })
 })
